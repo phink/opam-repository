@@ -9,7 +9,7 @@ synopsis: "Bindings for ECDH and ECDSA for 8-bit, 32-bit, and 64-bit processors"
 bug-reports: "https://github.com/vbmithr/ocaml-uecc/issues"
 dev-repo: "git://github.com/vbmithr/ocaml-uecc"
 build: [
-  ["dune" "build" "-j" jobs "-p" name "@install"]
+  ["dune" "build" "-j" jobs name "@install"]
   ["dune" "runtest" "-p" name "-j" jobs] {with-test}
   ["mv" "vendors/ocaml-uecc/uecc.install" "."]
 ]
