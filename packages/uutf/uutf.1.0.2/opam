@@ -35,6 +35,10 @@ Buffer.t values.
 Uutf has no dependency and is distributed under the ISC license.
 """
 url {
-archive: "http://erratique.ch/software/uutf/releases/uutf-1.0.2.tbz"
-checksum: "a7c542405a39630c689a82bd7ef2292c"
+  src: "http://erratique.ch/software/uutf/releases/uutf-1.0.2.tbz"
+  checksum: [
+    "md5=a7c542405a39630c689a82bd7ef2292c"
+    "sha256=e61a81f535e535b8772aa8ec4950939dd588b9337d4c9fec9743483c3ccda1db"
+    "sha512=5f2dbe78eaf73a292438d84c7185c839a7ac13cee9616a7b5006990314c6a0d42b212854cc2e89d815d3c45804f94bb40af75ecb60da7092887d8dc21e968bdd"
+  ]
 }

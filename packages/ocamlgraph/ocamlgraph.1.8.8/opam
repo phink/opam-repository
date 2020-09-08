@@ -40,5 +40,9 @@ synopsis: "A generic graph library for OCaml"
 flags: light-uninstall
 url {
   src: "http://ocamlgraph.lri.fr/download/ocamlgraph-1.8.8.tar.gz"
-  checksum: "md5=9d71ca69271055bd22d0dfe4e939831a"
+  checksum: [
+    "md5=9d71ca69271055bd22d0dfe4e939831a"
+    "sha256=d9eabefb73cad7bc59b3870f832cd0154f8b60feca89ef087f06e59cb9092f55"
+    "sha512=ccb07d4a7fb0c3026ad2d4563e1ca0a88483ac3cf43c9378989ae5c031961853a11c9673c06b54a16733c5755d9c0a2783c5f475afdcc7692d2bf3d4778f5bc5"
+  ]
 }

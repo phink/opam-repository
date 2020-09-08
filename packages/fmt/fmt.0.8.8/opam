@@ -39,6 +39,10 @@ Fmt is distributed under the ISC license.
 [cmdliner]: http://erratique.ch/software/cmdliner
 """
 url {
-archive: "https://erratique.ch/software/fmt/releases/fmt-0.8.8.tbz"
-checksum: "473490fcfdf3ff0a8ccee226b873d4b2"
+  src: "https://erratique.ch/software/fmt/releases/fmt-0.8.8.tbz"
+  checksum: [
+    "md5=473490fcfdf3ff0a8ccee226b873d4b2"
+    "sha256=64eeaf0659fe3b8cbf334ac6d55ff41d04310b400f895142ae028c6627cfc0c7"
+    "sha512=be664b4b5f0a0611bf8bbe7d0b242c6efe1a360f5c536c9d01b20ee99fb0e2de4d74b62cbf36bf30213a98f37243f31b2b069d0c3b2f739c90fb6639b336c883"
+  ]
 }

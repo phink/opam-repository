@@ -18,10 +18,15 @@ build: [
 depends: [
   "ocaml" {>= "4.02.0"}
   "dune" {>= "1.0"}
-  "ocaml-migrate-parsetree" {>= "1.7.0" & < "2.0.0"}
+  "ocaml-migrate-parsetree" {>= "1.7.0"}
 ]
 synopsis: "A variant of ppx_tools based on ocaml-migrate-parsetree"
 url {
-  src: "https://github.com/ocaml-ppx/ppx_tools_versioned/archive/5.4.0.tar.gz"
-  checksum: "md5=3e809a11cae99f57c051d3d0100311f6"
+  src:
+    "https://github.com/ocaml-ppx/ppx_tools_versioned/archive/5.4.0.tar.gz"
+  checksum: [
+    "md5=3e809a11cae99f57c051d3d0100311f6"
+    "sha256=be5fa320c73c2cdb8824fcedef54a30e3a9208a27ae847c70852afb7cd31826b"
+    "sha512=7f0421dbb42b43acc4f7892ac1c4c0ac13bdc188400d308688c4548b228aaf8bd80a4e2294672b50c78ac61e3c8df148c98d16b59f48292f02be40e7fd9640a9"
+  ]
 }

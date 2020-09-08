@@ -1,0 +1,29 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "ocamlfind" { build }
+  "dune" { >= "1.11" }
+  "tezos-base"
+  "tezos-shell-services"
+  "tezos-client-base"
+  "tezos-client-commands"
+  "tezos-protocol-environment"
+  "tezos-protocol-demo-counter"
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  [
+    "mv"
+    "src/proto_demo_counter/lib_client/tezos-client-demo-counter.install"
+    "."
+  ]
+]
+synopsis: "Tezos/Protocol: protocol specific library for `tezos-client`"
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/345425cad2332f291b2c39231de84721ad0f5d94/archive-345425cad2332f291b2c39231de84721ad0f5d94.tar.gz" checksum: "f476e550b9be30bee3559cf9bc4dd0ac" }

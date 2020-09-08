@@ -38,6 +38,11 @@ s-expressions from files or other external sources, you should use
 parsexp_io.
 "
 url {
-  src: "https://ocaml.janestreet.com/ocaml-core/v0.13/files/parsexp-v0.13.0.tar.gz"
-  checksum: "md5=08d2f6eca6a1eda735bf030d2581da43"
+  src:
+    "https://ocaml.janestreet.com/ocaml-core/v0.13/files/parsexp-v0.13.0.tar.gz"
+  checksum: [
+    "md5=08d2f6eca6a1eda735bf030d2581da43"
+    "sha256=d806f07f363a1838820dff01606964abb891ddacb9ae879024bcda61a4242454"
+    "sha512=68270ea51eb75ee4e61d50d17446a9dcd7307c6d2fe76dc877d85ed315959c31684971dc944155371bcec5a8d11f95c38bf3d2c6868e3c57a3c087ca48191850"
+  ]
 }

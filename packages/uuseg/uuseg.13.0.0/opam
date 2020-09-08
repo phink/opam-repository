@@ -44,6 +44,10 @@ OCaml UTF-X encoded strings. It is distributed under the ISC license.
 [2]: http://www.unicode.org/reports/tr14/
 """
 url {
-archive: "https://erratique.ch/software/uuseg/releases/uuseg-13.0.0.tbz"
-checksum: "a07a97fff61da604614ea8da0547ef6a"
+  src: "https://erratique.ch/software/uuseg/releases/uuseg-13.0.0.tbz"
+  checksum: [
+    "md5=a07a97fff61da604614ea8da0547ef6a"
+    "sha256=9ae6103dd63858b38e5d2613bc8dab98437ad01896ba1dc33be21a95912cc3a8"
+    "sha512=106bd47982f53d94080848c315e2ddbab44165b90f0b725e16b0ff590d3b9e27886f5e63fedb22bc1bf4b2c424e3b936bd77c43689e240547a3909669549a253"
+  ]
 }

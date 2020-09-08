@@ -30,5 +30,9 @@ extra-files: [
 ]
 url {
   src: "https://github.com/ocaml/num/archive/v1.3.tar.gz"
-  checksum: "md5=f074e12325e84ebc883b37e5db10403d"
+  checksum: [
+    "md5=f074e12325e84ebc883b37e5db10403d"
+    "sha256=4f79c30e81ea9553c5b2c5b5b57bb19968ccad1e85256b3c446b5df58f33e94d"
+    "sha512=c88310f8c45700990095e6b2e9abf24c27347711b9abfd1dde75e540fbbfc6a365e6713bd69f66009af305728fcb36dc61eb37fdd0be7d73824b0e92fbe8c031"
+  ]
 }

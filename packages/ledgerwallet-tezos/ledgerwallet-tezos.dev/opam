@@ -1,0 +1,22 @@
+opam-version: "2.0"
+name: "ledgerwallet-tezos"
+authors: "Vincent Bernardoff <vb@luminar.eu.org>"
+maintainer: "Vincent Bernardoff <vb@luminar.eu.org>"
+license: "ISC"
+synopsis: "Ledger wallet library for OCaml: Tezos app"
+homepage: "https://github.com/vbmithr/ocaml-ledger-wallet"
+bug-reports: "https://github.com/vbmithr/ocaml-ledger-wallet/issues"
+dev-repo: "git://github.com/vbmithr/ocaml-ledger-wallet"
+build: [
+  ["dune" "build" "-j" jobs "-p" name "@install"]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+  ["mv" "vendors/ocaml-ledger-wallet/ledgerwallet-tezos.install" "."]
+]
+depends: [
+  "dune" {build & >= "1.7"}
+  "ledgerwallet" {= "dev"}
+]
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/345425cad2332f291b2c39231de84721ad0f5d94/archive-345425cad2332f291b2c39231de84721ad0f5d94.tar.gz" checksum: "f476e550b9be30bee3559cf9bc4dd0ac" }

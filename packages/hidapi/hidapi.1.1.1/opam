@@ -22,5 +22,9 @@ on Linux, Mac, and Windows."""
 url {
   src:
     "https://github.com/vbmithr/ocaml-hidapi/releases/download/1.1.1/hidapi-1.1.1.tbz"
-  checksum: "md5=c23dfb12312d54738949bc1b7e87ecdb"
+  checksum: [
+    "md5=c23dfb12312d54738949bc1b7e87ecdb"
+    "sha256=222ae6bbef340a9aca86fb34393471c4a1b09ce992763db2398afe2cd569f9c8"
+    "sha512=3a5092882137756785f3a496f5cda02b8f13a09ca93d11534d5417a0a6e3e29dc372b40be366432e21bb6e1eca8b2b27dcec1e0a1e34081dc6edf48f378730da"
+  ]
 }

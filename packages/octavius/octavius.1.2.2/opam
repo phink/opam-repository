@@ -30,5 +30,9 @@ synopsis: "Ocamldoc comment syntax parser"
 description: "Octavius is a library to parse the `ocamldoc` comment syntax."
 url {
   src: "https://github.com/ocaml-doc/octavius/archive/v1.2.2.tar.gz"
-  checksum: "md5=72f9e1d996e6c5089fc513cc9218607b"
+  checksum: [
+    "md5=72f9e1d996e6c5089fc513cc9218607b"
+    "sha256=eac9104ce0316b69da9c44b9c477700fe0b52a888c89ce4bdf1d2b782a73e0ad"
+    "sha512=57e40f0bd03599bf0b14d85b29bef2214f9b9393917c0a65acf60cf028fe028a730a804f3c0101fee1378cacd4feb7a4f2df3c8411ceeb6bb34d47f849b7a55e"
+  ]
 }

@@ -44,7 +44,11 @@ extra-files: [
 ]
 url {
   src: "http://download.camlcity.org/download/findlib-1.8.1.tar.gz"
-  checksum: "md5=18ca650982c15536616dea0e422cbd8c"
+  checksum: [
+    "md5=18ca650982c15536616dea0e422cbd8c"
+    "sha256=8e85cfa57e8745715432df3116697c8f41cb24b5ec16d1d5acd25e0196d34303"
+    "sha512=0d8e1ff21217fcc6823aab3ac71282789691e4ae8c3607703d0393468247f93e2d084bd4e2a8795b523f2c7f193521d3aae4b8122c934ebf8b58c3185a5bc9c1"
+  ]
   mirrors: "http://download2.camlcity.org/download/findlib-1.8.1.tar.gz"
 }
 depopts: ["graphics"]

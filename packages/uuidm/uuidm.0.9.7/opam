@@ -29,6 +29,10 @@ Uuidm has no dependency and is distributed under the ISC license.
 [rfc4122]: http://tools.ietf.org/html/rfc4122
 """
 url {
-archive: "https://erratique.ch/software/uuidm/releases/uuidm-0.9.7.tbz"
-checksum: "54658248e3981d8c05237d0a4277ccd3"
+  src: "https://erratique.ch/software/uuidm/releases/uuidm-0.9.7.tbz"
+  checksum: [
+    "md5=54658248e3981d8c05237d0a4277ccd3"
+    "sha256=2817b2034ac8b2f9f251f4ae903dd1a2d8ed48bfa6f758b3307325dbe1587dc7"
+    "sha512=453bfd04d047e963e0a817de85aa2742dfa8ba09b506c9e1861c1139cf5e025564812c23cb19fa26be8998f80b4ebcfe2e4dd45b122f0534fe6239d9ea745646"
+  ]
 }

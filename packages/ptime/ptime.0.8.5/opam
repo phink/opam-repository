@@ -44,6 +44,10 @@ distributed under the ISC license.
 [jsoo]: http://ocsigen.org/js_of_ocaml/
 """
 url {
-archive: "https://erratique.ch/software/ptime/releases/ptime-0.8.5.tbz"
-checksum: "4d48055d623ecf2db792439b3e96a520"
+  src: "https://erratique.ch/software/ptime/releases/ptime-0.8.5.tbz"
+  checksum: [
+    "md5=4d48055d623ecf2db792439b3e96a520"
+    "sha256=47c82848d26da735495c2fb9c2ed4fc45971d5a9ee97bd6d735faae0fb29b8bb"
+    "sha512=fb1434834ce4b3c20347d9e98a3a36d687165446773992bdb58428fec05adeecc21913f383f679feafa420bd62928728054aac24d96413db61f0a83f1c2e66ea"
+  ]
 }

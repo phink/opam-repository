@@ -1,0 +1,36 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "tezos-tooling" { with-test }
+  "dune" { >= "1.11" }
+  "tezos-base"
+  "tezos-version"
+  "tezos-p2p"
+  "tezos-shell-services"
+  "tezos-p2p-services"
+  "tezos-protocol-updater"
+  "tezos-validation"
+  "tezos-stdlib-unix"
+  "tezos-requester"
+  "lwt-watcher" { = "0.1" }
+  "lwt-canceler" { = "0.2" }
+  "alcotest-lwt" { with-test & >= "1.1.0" }
+  "tezos-workers"
+  "tezos-test-services" { with-test }
+  "tezos-embedded-protocol-demo-noops" { with-test }
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+  ["mv" "src/lib_shell/tezos-shell.install" "."]
+]
+synopsis: "Tezos: core of `tezos-node` (gossip, validation scheduling, mempool, ...)"
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/345425cad2332f291b2c39231de84721ad0f5d94/archive-345425cad2332f291b2c39231de84721ad0f5d94.tar.gz" checksum: "f476e550b9be30bee3559cf9bc4dd0ac" }

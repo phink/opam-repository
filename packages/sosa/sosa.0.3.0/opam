@@ -28,5 +28,9 @@ string of characters should be, and a set of modules and functors that
 implement them."""
 url {
   src: "https://github.com/hammerlab/sosa/archive/sosa.0.3.0.tar.gz"
-  checksum: "md5=5d21343b5960f014c182b20f028eb27f"
+  checksum: [
+    "md5=5d21343b5960f014c182b20f028eb27f"
+    "sha256=576883f9c5217be21dd7ef6fb1edc4fc282d84aed5deb9935c3353ccf939a351"
+    "sha512=09cd52812725ba2651a8f9b518c0229f934483ca84141e893d3b311992912b3d4bd1dd04e5c04ade0dd7520fff9fbb33516f2f65aee0d6081015314db7fa8d59"
+  ]
 }

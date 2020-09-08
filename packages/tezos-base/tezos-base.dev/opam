@@ -1,0 +1,34 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "tezos-tooling" { with-test }
+  "dune" { >= "1.11" }
+  "tezos-stdlib"
+  "tezos-crypto"
+  "data-encoding" { = "0.2" }
+  "tezos-error-monad"
+  "tezos-lwt-result-stdlib"
+  "tezos-event-logging"
+  "tezos-micheline"
+  "tezos-rpc"
+  "ptime" { >= "0.8.4" }
+  "ezjsonm" { >= "0.5.0" }
+  "ipaddr" {>= "5.0.0" & < "6.0.0"}
+  "re" { >= "1.7.2" }
+  "crowbar" { with-test }
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+  ["mv" "src/lib_base/tezos-base.install" "."]
+]
+synopsis: "Tezos: meta-package and pervasive type definitions for Tezos"
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/345425cad2332f291b2c39231de84721ad0f5d94/archive-345425cad2332f291b2c39231de84721ad0f5d94.tar.gz" checksum: "f476e550b9be30bee3559cf9bc4dd0ac" }

@@ -21,6 +21,11 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-  src: "https://ocaml.janestreet.com/ocaml-core/v0.13/files/ppx_sexp_conv-v0.13.0.tar.gz"
-  checksum: "md5=acb33a38721f4a16f71add6afaa315da"
+  src:
+    "https://ocaml.janestreet.com/ocaml-core/v0.13/files/ppx_sexp_conv-v0.13.0.tar.gz"
+  checksum: [
+    "md5=acb33a38721f4a16f71add6afaa315da"
+    "sha256=1691e0c3f744512d863545cd85720e2ab27a211d8d4c4bc7591659f90ff1f77a"
+    "sha512=c507c75a7f9e505ca3fd7b9815f09933c1799f8eeb741ad4592a64a85b6c9c5853dc04c3fac10151f0bec66103958ca9486706b6807a6f054f296621ff60189f"
+  ]
 }

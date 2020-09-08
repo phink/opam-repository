@@ -34,5 +34,9 @@ deserializers from type definitions."""
 url {
   src:
     "https://github.com/ocaml-community/yojson/releases/download/1.7.0/yojson-1.7.0.tbz"
-  checksum: "md5=b89d39ca3f8c532abe5f547ad3b8f84d"
+  checksum: [
+    "md5=b89d39ca3f8c532abe5f547ad3b8f84d"
+    "sha256=656fc65f794186274f8b961dc38daba9e2de2fc993829291defbda2186812cc6"
+    "sha512=01a8ef04e98bf0806905d6a7ee6e1e7ef51be557767fab6b06e7345d7e2deb7f7a0bc1531096ac3a7db6e65e12b0183a18052af8382ac54c368a2f8210b5e043"
+  ]
 }

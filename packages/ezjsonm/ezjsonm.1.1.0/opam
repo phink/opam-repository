@@ -32,5 +32,9 @@ use it directly, rather than be saddled with the Ezjsonm interface.
 url {
   src:
     "https://github.com/mirage/ezjsonm/releases/download/v1.1.0/ezjsonm-v1.1.0.tbz"
-  checksum: "md5=e8f207c6cd2226b2c4784b1e56556797"
+  checksum: [
+    "md5=e8f207c6cd2226b2c4784b1e56556797"
+    "sha256=527dbd3f930570ced1052f20b8844fe92a87adca7ec870fe9353695902f3d2b5"
+    "sha512=25ba2d72fda09d42fea1020db1c301b50405a91019ee6f00073c31a2edfa9945e0d3b10bf32e817601b8ec19c56a64df38499f6803bf45135d3f4e3d5603c270"
+  ]
 }
