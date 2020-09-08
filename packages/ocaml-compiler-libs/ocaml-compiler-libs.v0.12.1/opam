@@ -19,5 +19,9 @@ the toplevel names Ocaml_common, Ocaml_bytecomp, Ocaml_optcomp, ..."""
 url {
   src:
     "https://github.com/janestreet/ocaml-compiler-libs/archive/v0.12.1.tar.gz"
-  checksum: "md5=2f929af7c764a3f681a5671f271210c4"
+  checksum: [
+    "md5=2f929af7c764a3f681a5671f271210c4"
+    "sha256=d20f217992f26fa2012c67537391d55e1619e37c51087d1d65b583f08c849a04"
+    "sha512=f4358ab6a1be8405b077d690ca636cc0af9507fdc7836609e0ddc1f841488f24cb9741869f1ea95ca3dff82f25f60dcf907f4f7c049bdf282c1936f3fefd6808"
+  ]
 }

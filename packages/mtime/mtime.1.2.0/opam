@@ -39,6 +39,10 @@ and its libraries are distributed under the ISC license.
 [jsoo]: http://ocsigen.org/js_of_ocaml/
 """
 url {
-archive: "https://erratique.ch/software/mtime/releases/mtime-1.2.0.tbz"
-checksum: "f3f4c1333c0f74fc27b05c35b9c0dab9"
+  src: "https://erratique.ch/software/mtime/releases/mtime-1.2.0.tbz"
+  checksum: [
+    "md5=f3f4c1333c0f74fc27b05c35b9c0dab9"
+    "sha256=687564bcddf22b096f9ac7b5f7f24bd7c62f70da6b8daa9dfdf08d3ff196a17e"
+    "sha512=0f0ed220cd0f899643930814010f8592e1f47b6dc6c4dce8eebfb17a81b0abed093a3dbf9c02490af99bf81ea640372f73b4ab88fd8ef0e0c7c66920692a8778"
+  ]
 }

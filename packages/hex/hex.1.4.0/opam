@@ -33,5 +33,9 @@ description: """
 url {
   src:
     "https://github.com/mirage/ocaml-hex/releases/download/v1.4.0/hex-v1.4.0.tbz"
-  checksum: "md5=57103ff33e70f14171c46d88f5452d11"
+  checksum: [
+    "md5=57103ff33e70f14171c46d88f5452d11"
+    "sha256=57e3492fa085eb332d7cd84f2ca1701a5940e4a4b19b9a27d59a3a5b29f0691d"
+    "sha512=51fe702a5ffdb53380c4528c28f84d814a3c2c4cdfc1cc097348816fc66f27a0c871a2600549a2b6c7f1dff760386f7687de3a111343e526eb9bd86f92ef1814"
+  ]
 }

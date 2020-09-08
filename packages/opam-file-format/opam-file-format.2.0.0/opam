@@ -17,5 +17,9 @@ depends: ["ocaml"]
 flags: light-uninstall
 url {
   src: "https://github.com/ocaml/opam-file-format/archive/2.0.0.tar.gz"
-  checksum: "md5=d7852cb63df0f442bed14ba2c5740135"
+  checksum: [
+    "md5=d7852cb63df0f442bed14ba2c5740135"
+    "sha256=15252df2edb82bffc20a9957cb3764574b2ba748392bb34e6c91c67872325c32"
+    "sha512=d692da78cbb37abfe50f4b2499607cfc9f2f311efce5620dac587f8ccc173de231264685d1944049b68c2dfd97ac600a00973a35c920ce9a8d5df021cdb8eb3e"
+  ]
 }

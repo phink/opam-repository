@@ -1,0 +1,25 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "ocamlfind" { build }
+  "dune" { >= "1.7" }
+  "tezos-base"
+  "tezos-client-base"
+  "tezos-shell-services"
+  "tezos-protocol-environment"
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+  ["mv" "src/lib_mockup/tezos-mockup-registration.install" "."]
+]
+synopsis: "Tezos: protocol registration for the mockup mode"
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/8e0b0f83c5f00d47a006d203e8571021dcf0aa27/archive-8e0b0f83c5f00d47a006d203e8571021dcf0aa27.tar.gz" checksum: "a199a7ec450df3b1d9708831935da5e0" }

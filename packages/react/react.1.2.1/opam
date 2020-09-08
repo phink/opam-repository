@@ -29,5 +29,9 @@ React is made of a single, independent, module and distributed under
 the ISC license."""
 url {
   src: "http://erratique.ch/software/react/releases/react-1.2.1.tbz"
-  checksum: "md5=ce1454438ce4e9d2931248d3abba1fcc"
+  checksum: [
+    "md5=ce1454438ce4e9d2931248d3abba1fcc"
+    "sha256=7b2c5c078cc659dcd2202e5d89628df592c5e843b7e8f357b63db5f6d2e148aa"
+    "sha512=60f8788cc820e2be5303caedc80a377c8e5deab170d0eb9df71ff99d6fc57f31357824522f973c6e0d6b3979b58272e7f90b829474a494b94565279c53e8fbb1"
+  ]
 }

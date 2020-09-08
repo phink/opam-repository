@@ -8,9 +8,8 @@ bug-reports: "https://github.com/ocaml/stdlib-shims/issues"
 tags: ["stdlib" "compatibility" "org:ocaml"]
 license: ["typeof OCaml system"]
 depends: [
-  "ocaml" {>="4.02.3"}
   "dune"
- ("dune" {>= "2.7.0"} | "dune" & "ocaml" {<"4.12.0~~"})
+  "ocaml" {>= "4.02.3"}
 ]
 build: [ "dune" "build" "-p" name "-j" jobs ]
 synopsis: "Backport some of the new stdlib features to older compiler"
@@ -24,5 +23,9 @@ use these new features in their code.
 url {
   src:
     "https://github.com/ocaml/stdlib-shims/releases/download/0.1.0/stdlib-shims-0.1.0.tbz"
-  checksum: "md5=12b5704eed70c6bff5ac39a16db1425d"
+  checksum: [
+    "md5=12b5704eed70c6bff5ac39a16db1425d"
+    "sha256=5373c987e9f82a4434fffa3eb7d795159138f8ffe76b786a1ac21877c8f266cb"
+    "sha512=149d1746448724bd89535bff2118749102ea25b16942fc7165aab917bb60b97bd5d9e9b3e566a025bd0b599e7e607b43d9001113ef2eef687a6dfbab2788c759"
+  ]
 }

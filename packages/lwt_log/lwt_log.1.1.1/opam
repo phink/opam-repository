@@ -26,5 +26,9 @@ build: [
 
 url {
   src: "https://github.com/aantron/lwt_log/archive/1.1.1.tar.gz"
-  checksum: "md5=02e93be62288037870ae5b1ce099fe59"
+  checksum: [
+    "md5=02e93be62288037870ae5b1ce099fe59"
+    "sha256=14fb19ec61e555e32c8bb026a591c0ce5b0a153663d17b0876178ab92d625f3f"
+    "sha512=df3d171a7c72f37e96b756d252ab586767df9c13e01500faf13d4b2cee936b0602fd7c725c03db488d3737d8d92300af103d395a926dc654a2c44a5d6068f24a"
+  ]
 }

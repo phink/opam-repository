@@ -18,5 +18,9 @@ Result module defined in this library."""
 url {
   src:
     "https://github.com/janestreet/result/releases/download/1.5/result-1.5.tbz"
-  checksum: "md5=1b82dec78849680b49ae9a8a365b831b"
+  checksum: [
+    "md5=1b82dec78849680b49ae9a8a365b831b"
+    "sha256=7c3a5e238558f4c1a4f5acca816bc705a0e12f68dc0005c61ddbf2e6cab8ee32"
+    "sha512=4dfabc121fd69b3e0fe742f4da483830104d8fedf5ad3d83b4fb3efa2d544cb05eadc8719960b24bdf5760bff3434c5225f280339d70af9fb2842f3efe1bb87b"
+  ]
 }

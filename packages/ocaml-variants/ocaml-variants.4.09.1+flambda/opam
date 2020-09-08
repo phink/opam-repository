@@ -30,7 +30,10 @@ build: [
 install: [make "install"]
 url {
   src: "https://github.com/ocaml/ocaml/archive/4.09.1.tar.gz"
-  checksum: "sha256=3e3146e0c876d14bdd574cb543e782feb2b07a7cabd054a8f322ef40de61943a"
+  checksum: [
+    "sha256=3e3146e0c876d14bdd574cb543e782feb2b07a7cabd054a8f322ef40de61943a"
+    "sha512=81fe1b14f4245b474ff8e3236b824c798d5134fbb143eef946bb38e66102a224ec7bf01b4a232f4cd7fc62e2ad5932ee190e70f5b6aac409d38fd8384ed6ee7c"
+  ]
 }
 post-messages: [
   "A failure in the middle of the build may be caused by build parallelism

@@ -23,7 +23,7 @@ depends: [
   "cmdliner" {>= "1.0.0"}
   "dune"
   "ocaml" {>= "4.02.0"}
-  "ocaml-migrate-parsetree" {>= "1.7.0" & < "2.0.0"}
+  "ocaml-migrate-parsetree" {>= "1.7.0"}
   "ppx_tools_versioned" {>= "5.4.0"}
 
   "ocamlfind" {with-test}
@@ -50,5 +50,9 @@ then run the Bisect_ppx report tool on the generated visitation files."
 
 url {
   src: "https://github.com/aantron/bisect_ppx/archive/2.4.1.tar.gz"
-  checksum: "md5=9551a49de6b80aa7caf20ec693387c86"
+  checksum: [
+    "md5=9551a49de6b80aa7caf20ec693387c86"
+    "sha256=6552116b8bce000dad7623c38fc8695d7ec6ec0b8ed67abee707031fcdb2cad0"
+    "sha512=979de36bc2cdf97e0c8b5afaea494a30e991c33dc19f90c318c0d4734e4c572e36ed156325065ccfe9fbe011684435be400293ca189602a9807e8f2d234daf8d"
+  ]
 }

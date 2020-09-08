@@ -1,0 +1,37 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "ocamlfind" { build }
+  "dune" { >= "1.11" }
+  "tezos-protocol-demo-counter"
+  "tezos-protocol-compiler"
+  "tezos-protocol-updater"
+]
+build: [
+  [
+    "%{tezos-protocol-compiler:lib}%/replace"
+    "%{tezos-protocol-compiler:lib}%/dune_protocol.template"
+    "dune"
+    "%{tezos-protocol-compiler:lib}%/final_protocol_versions"
+    "demo_counter"
+  ]
+  ["dune" "build" "-p" name "-j" jobs]
+  [
+    "mv"
+    "src/proto_demo_counter/lib_protocol/tezos-embedded-protocol-demo-counter.install"
+    "."
+  ]
+]
+run-test: [
+  [ "dune" "runtest" "-p" name "-j" jobs ]
+]
+synopsis: "Tezos/Protocol: demo_counter (economic-protocol definition, embedded in `tezos-node`)"
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/8e0b0f83c5f00d47a006d203e8571021dcf0aa27/archive-8e0b0f83c5f00d47a006d203e8571021dcf0aa27.tar.gz" checksum: "a199a7ec450df3b1d9708831935da5e0" }

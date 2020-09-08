@@ -1,0 +1,25 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "tezos-tooling" { with-test }
+  "dune" { >= "1.11" }
+  "data-encoding" { = "0.2" }
+  "tezos-error-monad"
+  "uutf"
+  "alcotest-lwt" { with-test & >= "1.1.0" }
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  ["dune" "runtest" "-p" name "-j" jobs] {with-test}
+  ["mv" "src/lib_micheline/tezos-micheline.install" "."]
+]
+synopsis: "Tezos: internal AST and parser for the Michelson language"
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/8e0b0f83c5f00d47a006d203e8571021dcf0aa27/archive-8e0b0f83c5f00d47a006d203e8571021dcf0aa27.tar.gz" checksum: "a199a7ec450df3b1d9708831935da5e0" }

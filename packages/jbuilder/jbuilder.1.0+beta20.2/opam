@@ -35,5 +35,9 @@ depends: [
 url {
   src:
     "https://github.com/ocaml/dune/releases/download/1.0%2Bbeta20.2/jbuilder-1.0+beta20.2.tbz"
-  checksum: "md5=fbe8c3b1facb206cac3fb8932b5dd5d9"
+  checksum: [
+    "md5=fbe8c3b1facb206cac3fb8932b5dd5d9"
+    "sha256=c55c74936c8e7a3eadfe11ea42b845de90410e0bd30c929e5b0111d001ce2694"
+    "sha512=604d280bf6514a2ef1dd1ddc9619a87a8a6fb6e520362dc495ee30b91b1562ee62ef444db642ff7dc127ad8bd2cb65d0a7d17b96420ef07cce077a1f553859ce"
+  ]
 }

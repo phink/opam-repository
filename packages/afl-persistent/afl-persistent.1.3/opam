@@ -31,5 +31,9 @@ tested. using this package, you can run afl-fuzz in 'persistent mode',
 which avoids repeated forking and is much faster."""
 url {
   src: "https://github.com/stedolan/ocaml-afl-persistent/archive/v1.3.tar.gz"
-  checksum: "md5=613ae369149ae8e2942e3c8bddd6798b"
+  checksum: [
+    "md5=613ae369149ae8e2942e3c8bddd6798b"
+    "sha256=1148c43b9548a7ee146b9951dd2700bb303eeb11c76222077346620153a50e5d"
+    "sha512=31f940be1c3e79856a001e2af687bb60f1a1bd6e04c6e730dc8f859db22bfccdc38eddb50baef423473cae9d1d3c2b86427a8257df0005328027b0fa2735100a"
+  ]
 }

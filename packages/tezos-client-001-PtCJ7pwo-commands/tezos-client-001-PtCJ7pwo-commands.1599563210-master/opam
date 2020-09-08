@@ -1,0 +1,30 @@
+opam-version: "2.0"
+maintainer: "contact@tezos.com"
+authors: [ "Tezos devteam" ]
+homepage: "https://www.tezos.com/"
+bug-reports: "https://gitlab.com/tezos/tezos/issues"
+dev-repo: "git+https://gitlab.com/tezos/tezos.git"
+license: "MIT"
+depends: [
+  "dune" { >= "1.11" }
+  "tezos-base"
+  "tezos-protocol-environment"
+  "tezos-protocol-001-PtCJ7pwo"
+  "tezos-shell-services"
+  "tezos-client-base"
+  "tezos-client-001-PtCJ7pwo"
+  "tezos-client-commands"
+]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+  [
+    "mv"
+    "src/proto_001_PtCJ7pwo/lib_client_commands/tezos-client-001-PtCJ7pwo-commands.install"
+    "."
+  ]
+]
+synopsis: "Tezos/Protocol: 001_PtCJ7pwo (protocol-specific commands for `tezos-client`)"
+
+
+
+url { src: "https://gitlab.com/tezos/tezos/-/archive/8e0b0f83c5f00d47a006d203e8571021dcf0aa27/archive-8e0b0f83c5f00d47a006d203e8571021dcf0aa27.tar.gz" checksum: "a199a7ec450df3b1d9708831935da5e0" }

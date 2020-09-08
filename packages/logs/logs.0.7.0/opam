@@ -59,6 +59,10 @@ Logs and its reporters are distributed under the ISC license.
 [lwt]: http://ocsigen.org/lwt/
 """
 url {
-archive: "https://erratique.ch/software/logs/releases/logs-0.7.0.tbz"
-checksum: "2bf021ca13331775e33cf34ab60246f7"
+  src: "https://erratique.ch/software/logs/releases/logs-0.7.0.tbz"
+  checksum: [
+    "md5=2bf021ca13331775e33cf34ab60246f7"
+    "sha256=86f4a02807eb1a297aae44977d9f61e419c31458a5d7b23c6f55575e8e69d5ca"
+    "sha512=657f66eeaf5788947a3ff4b2a179f7e192ad4ce086fc8968286066d4b83af476523b3befce50ee58abf2d9b8c8dc65573ba8ed62f9c5e7933db29a7fb769646a"
+  ]
 }
